@@ -1,5 +1,7 @@
 connection: "thelook"
 
+#Commit 1
+
 # include all the views
 include: "/views/**/*.view"
 
