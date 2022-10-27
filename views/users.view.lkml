@@ -18,6 +18,16 @@ view: users {
     sql: ${TABLE}.city ;;
   }
 
+  dimension: lat {
+    type: number
+    sql: ${TABLE}.latitude ;;
+  }
+
+  dimension: long {
+    type: number
+    sql: ${TABLE}.longitude ;;
+  }
+
   dimension: country {
     type: string
     map_layer_name: countries
